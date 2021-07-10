@@ -14,11 +14,11 @@ namespace Activity1
         {
 
             int count = 0;
-            Console.WriteLine("Instructors in Tech World: ");
+            Console.WriteLine("\nInstructors in Tech World:");
 
             // Read file Instructors.txt for instructors 
 
-            var lines = File.ReadAllLines("Instructors.txt");
+            var lines = File.ReadAllLines(@"C:\Users\ROHINI NAIR\source\repos\Activity1\Instructors.txt");
             for (int i = 0; i < lines.Length; i++)
             {
                 var fields = lines[i].Split(' ');
@@ -27,13 +27,13 @@ namespace Activity1
 
             // User input technology interested
 
-            Console.WriteLine("\nEnter the technology client interested: ");
+            Console.WriteLine("\n\nEnter the technology client interested: ");
             string technology = Console.ReadLine();
         
 
             // Valid Instructors Check
 
-            Console.WriteLine("Instructors that can be allocated: \n");
+            Console.WriteLine("\nInstructors that can be allocated: \n");
 
                 // Reading values from file
 
