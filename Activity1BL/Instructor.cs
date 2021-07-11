@@ -11,13 +11,14 @@ namespace Activity1BL
         private float avgFeedback;
         private int experience;
         private string instructorName;
-        private string[] instructorSkill = new string[100];
+        private string[] instructorSkill;
 
         public Instructor()
         {
             avgFeedback = 0;
             experience = 0;
-            instructorName = "Not Specified";
+            instructorName = "";
+            instructorSkill=new string[100];
         }
 
         public Instructor(string instructorName, float avgFeedback, int experience,string[] instructorSkill)

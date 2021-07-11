@@ -46,5 +46,7 @@ namespace Activity1BL.Tests
             Assert.AreEqual(expected, obj2.CheckSkill("Java"));
 
         }
+
+        
     }
 }
